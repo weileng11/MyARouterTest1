@@ -1,11 +1,11 @@
 # MyARouterTest
 使用阿里Arouter路由实现模块化开发简介
 
-**lib 说明：lib_base 公共的包**
+**lib 说明：```lib_base 公共的包**
 
-         **app:程序的入口**
+         ```**app:程序的入口**
 
-         **lib_icon 图片**
+         ```**lib_icon 图片**
 
          **module_chat 测试模块服务调用以及回调 微聊**
 
