@@ -58,6 +58,7 @@
 
 
 **bulid 配置
+      ```java
       **1.if (!isNeedRecomModule.toBoolean()) {
             apply plugin: 'com.android.application'
         } else {
@@ -80,8 +81,9 @@
          **5.gradle.properties 设置是module还是app
 
 
-
+ ```
 **常见问题:
+ ```
 **1.There's no router matched!
 在组件化开发过程中，我在宿主App模块引用模块C中的Activity，一直不能成功，界面及日志提示"W/ARouter::: ARouter::There is no route match the path [/xxx/xxx], in group [xxx][ ]"
 最终定位原因是需要在宿主App的build.gradle中，把需要路由的模块（上例中的模块C）引入进来
