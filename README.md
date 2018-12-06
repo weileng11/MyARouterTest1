@@ -1,22 +1,18 @@
 # MyARouterTest
 使用阿里Arouter路由实现模块化开发简介
 
-**lib 说明：```lib_base 公共的包**
-
+```lib 说明：
+         **lib_base 公共的包**
          ```**app:程序的入口**
-
          ```**lib_icon 图片**
-
          **module_chat 测试模块服务调用以及回调 微聊**
-
          **module_home 主要演示 首页**
-
          **module_me 演示module,我的**
-
          **module_recom 无 推荐**
 
 
-**包含:1.登录（跨模块跳转Activity）**
+```包含:
+     **1.登录（跨模块跳转Activity）**
      **2.使用eventBus夸模块通信 (lib_base)**
      **3.使用url应用跳转，并使用eventBus返回数据**
      **4.旧版本转场动画**
@@ -37,7 +33,9 @@
       **13.模块间通过类名调用服务**
       **14.跳转失败**
 
-**路由使用: 1.// 替换成最新版本, 需要注意的是api
+**路由使用:
+       ```java
+       1.// 替换成最新版本, 需要注意的是api
          // 要与compiler匹配使用，均使用最新版可以保证兼容
          compile 'com.alibaba:arouter-api:x.x.x'
          annotationProcessor 'com.alibaba:arouter-compiler:x.x.x'
