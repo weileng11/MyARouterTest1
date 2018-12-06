@@ -61,7 +61,6 @@ lib 说明：
 
  ```
 bulid 配置
-
  ```
       ```java
       **1.if (!isNeedRecomModule.toBoolean()) {
@@ -86,10 +85,8 @@ bulid 配置
          **5.gradle.properties 设置是module还是app
 
 
- ```
-**常见问题:
- ```
-**1.There's no router matched!
+##常见问题:
+*1.There's no router matched!
 在组件化开发过程中，我在宿主App模块引用模块C中的Activity，一直不能成功，界面及日志提示"W/ARouter::: ARouter::There is no route match the path [/xxx/xxx], in group [xxx][ ]"
 最终定位原因是需要在宿主App的build.gradle中，把需要路由的模块（上例中的模块C）引入进来
 //builde.gradle文件
@@ -98,7 +95,7 @@ compile project(":moudled")
 在组件化开发中，各模块建议不要有依赖关系。宿主App在打包编译时可依赖各组件，组件之间可以使用ARouter进行界面跳转。
 上例中模块c和d之间无依赖关系，但是再宿主app中可以进行跳转。
 
-**2.ARouter::Extract the default group failed
-**根据github的使用文档，路由路径至少需要有两级：/xx/xx。
-**使用路由启动Activity时，犯了一个错误，路径名称忘记写首字符/，导致出现了如下报错，引以为戒。
+*2.ARouter::Extract the default group failed
+根据github的使用文档，路由路径至少需要有两级：/xx/xx。
+使用路由启动Activity时，犯了一个错误，路径名称忘记写首字符/，导致出现了如下报错，引以为戒。
 
