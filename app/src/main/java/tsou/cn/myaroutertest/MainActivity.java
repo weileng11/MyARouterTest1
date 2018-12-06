@@ -16,6 +16,9 @@ import java.util.ArrayList;
 
 import tsou.cn.myaroutertest.utils.FragmentUtils;
 
+/**
+  原文地址:https://blog.csdn.net/huangxiaoguo1/article/details/78753555
+ */
 public class MainActivity extends AppCompatActivity {
 
     private ViewPager mMViewPager;
