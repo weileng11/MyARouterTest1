@@ -84,9 +84,8 @@ bulid 配置
             compile project(':lib_icon')
          **5.gradle.properties 设置是module还是app
 
- ```
-##常见问题:
- ```
+## 常见问题:
+
  ```java
 *1.There's no router matched!
 在组件化开发过程中，我在宿主App模块引用模块C中的Activity，一直不能成功，界面及日志提示"W/ARouter::: ARouter::There is no route match the path [/xxx/xxx], in group [xxx][ ]"
