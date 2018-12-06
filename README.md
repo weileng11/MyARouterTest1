@@ -13,6 +13,7 @@ lib 说明：
          *module_recom 无 推荐
 ```
 包含:
+```
      *1.登录（跨模块跳转Activity）
      *2.使用eventBus夸模块通信 (lib_base)
      *3.使用url应用跳转，并使用eventBus返回数据
@@ -33,8 +34,9 @@ lib 说明：
       *12.模块间通过路径名称调用服务
       *13.模块间通过类名调用服务
       *14.跳转失败
-
-**路由使用:
+ ```
+路由使用:
+ ```
        ```java
        1.// 替换成最新版本, 需要注意的是api
          // 要与compiler匹配使用，均使用最新版可以保证兼容
@@ -57,8 +59,10 @@ lib 说明：
             .navigation();
         详情见demo
 
+ ```
+bulid 配置
 
-**bulid 配置
+ ```
       ```java
       **1.if (!isNeedRecomModule.toBoolean()) {
             apply plugin: 'com.android.application'
