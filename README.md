@@ -2,11 +2,17 @@
 使用阿里Arouter路由实现模块化开发简介
 
 **lib 说明：lib_base 公共的包**
+
          **app:程序的入口**
+
          **lib_icon 图片**
+
          **module_chat 测试模块服务调用以及回调 微聊**
+
          **module_home 主要演示 首页**
+
          **module_me 演示module,我的**
+
          **module_recom 无 推荐**
 
 
