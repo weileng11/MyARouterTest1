@@ -1,35 +1,35 @@
 # MyARouterTest
 使用阿里Arouter路由实现模块化开发简介
 
-**lib 说明：lib_base 公共的包
-         **app:程序的入口
-         **lib_icon 图片
-         **module_chat 测试模块服务调用以及回调 微聊
-         **module_home 主要演示 首页
-         **module_me 演示module,我的
-         **module_recom 无 推荐
+**lib 说明：lib_base 公共的包**
+         **app:程序的入口**
+         **lib_icon 图片**
+         **module_chat 测试模块服务调用以及回调 微聊**
+         **module_home 主要演示 首页**
+         **module_me 演示module,我的**
+         **module_recom 无 推荐**
 
 
-**包含:1.登录（跨模块跳转Activity）
-     **2.使用eventBus夸模块通信 (lib_base)
-     **3.使用url应用跳转，并使用eventBus返回数据
-     **4.旧版本转场动画
-     **5.新版本转场动画
-     **6.通过URL跳转（webview）
-     **7.如果利用重新分组，就需要在build中进行指定的分组不然没有效果
-     **8.拦截器操作(利用原有分组)
-     **9.拦截器操作(绿色通道，跳过拦截器)
+**包含:1.登录（跨模块跳转Activity）**
+     **2.使用eventBus夸模块通信 (lib_base)**
+     **3.使用url应用跳转，并使用eventBus返回数据**
+     **4.旧版本转场动画**
+     **5.新版本转场动画**
+     **6.通过URL跳转（webview）**
+     **7.如果利用重新分组，就需要在build中进行指定的分组不然没有效果**
+     **8.拦截器操作(利用原有分组)**
+     **9.拦截器操作(绿色通道，跳过拦截器)**
      **10.必须先初始化JsonServiceImpl实现SerializationService
         配置说明:build必须配置,否则找不到JsonServiceImpl testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
                      javaCompileOptions {
                          annotationProcessorOptions {
                              arguments = [moduleName: project.getName()]
-                         }
-      **11.//模块间服务调用
-        //例如home模块调用chat模块的方法
-      **12.模块间通过路径名称调用服务
-      **13.模块间通过类名调用服务
-      **14.跳转失败
+                         }**
+      **11.//模块间服务调用**
+        //例如home模块调用chat模块的方法**
+      **12.模块间通过路径名称调用服务**
+      **13.模块间通过类名调用服务**
+      **14.跳转失败**
 
 **路由使用: 1.// 替换成最新版本, 需要注意的是api
          // 要与compiler匹配使用，均使用最新版可以保证兼容
