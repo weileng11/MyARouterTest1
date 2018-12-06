@@ -61,7 +61,7 @@ lib 说明：
 
  ```
 bulid 配置
- ```
+
       ```java
       **1.if (!isNeedRecomModule.toBoolean()) {
             apply plugin: 'com.android.application'
@@ -83,7 +83,7 @@ bulid 配置
          **4. compile project(':lib_base')
             compile project(':lib_icon')
          **5.gradle.properties 设置是module还是app
-
+```
 
 ##常见问题:
 *1.There's no router matched!
